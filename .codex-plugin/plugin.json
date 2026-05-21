@@ -1,0 +1,39 @@
+{
+  "name": "cockroachdb",
+  "version": "0.1.0",
+  "description": "Connect Codex to CockroachDB Cloud through the hosted MCP endpoint.",
+  "author": {
+    "name": "Vittal Pai",
+    "email": "vittalnifty2@gmail.com",
+    "url": "https://github.com/vittalpai/cockroachdb-codex-plugin"
+  },
+  "homepage": "https://github.com/vittalpai/cockroachdb-codex-plugin",
+  "repository": "https://github.com/vittalpai/cockroachdb-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cockroachdb",
+    "database",
+    "sql",
+    "postgresql",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "CockroachDB",
+    "shortDescription": "Query CockroachDB from Codex",
+    "longDescription": "Inspect schemas, describe tables, and query CockroachDB Cloud through the hosted MCP server.",
+    "developerName": "Vittal Pai",
+    "category": "Developer Tools",
+    "websiteURL": "https://github.com/vittalpai/cockroachdb-codex-plugin",
+    "privacyPolicyURL": "https://github.com/vittalpai/cockroachdb-codex-plugin",
+    "termsOfServiceURL": "https://github.com/vittalpai/cockroachdb-codex-plugin",
+    "defaultPrompt": [
+      "List the schemas and tables in my CockroachDB cluster",
+      "Describe the orders table and its indexes",
+      "Run this read-only SQL against CockroachDB"
+    ],
+    "brandColor": "#0F8B8D",
+    "screenshots": []
+  }
+}
