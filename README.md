@@ -173,13 +173,6 @@ skills/cockroachdb/         Guidance Codex can use with the plugin
 scripts/                    Earlier local MCP server work kept in the repo
 ```
 
-## Notes for publishing
-
-- Do not commit real bearer tokens to GitHub
-- Do not commit cluster-specific secrets in `.mcp.json`
-- Use placeholders in examples and keep the real config local
-- If you already committed a live token, rotate it before publishing
-
 ## Current status
 
 This plugin has been tested against a CockroachDB Cloud cluster and used successfully for:
@@ -189,7 +182,3 @@ This plugin has been tested against a CockroachDB Cloud cluster and used success
 - fetching table schema
 - running `SELECT` queries
 - fetching recent rows from application tables
-
-## Author
-
-Vittal Pai
